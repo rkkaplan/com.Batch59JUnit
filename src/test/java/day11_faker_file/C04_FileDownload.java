@@ -24,6 +24,7 @@ public class C04_FileDownload extends TestBase {
         String path = System.getProperty("user.home") + "\\Downloads\\dummy.txt";
 
         Assert.assertTrue(Files.exists(Paths.get(path)));
+        System.out.println("github");
     }
 
 

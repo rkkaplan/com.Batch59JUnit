@@ -24,12 +24,12 @@ public class C05_ReadExcel {
         int sonSatirIndex=workbook
                 .getSheet("Sayfa2")
                 .getLastRowNum();
-        int expectedSatirSayisi=24;
+        int expectedSatirSayisi=25;
         Assert.assertEquals(expectedSatirSayisi,sonSatirIndex+1);
         int kullanilanSatirSayisi=workbook
                 .getSheet("Sayfa2")
                 .getPhysicalNumberOfRows();
-        int expectedKullanilanSatirsayisi=12;
+        int expectedKullanilanSatirsayisi=23;
         Assert.assertEquals(expectedKullanilanSatirsayisi,kullanilanSatirSayisi);
 
 
